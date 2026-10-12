@@ -1,0 +1,24 @@
+{
+  "name": "site-desktop-packager",
+  "version": "1.0.0",
+  "description": "网页打包桌面 EXE 工具：输入网址、网站名称、网站图标，一键生成 Windows 桌面应用（安装包 + 便携版）",
+  "private": true,
+  "main": "build-site-app.js",
+  "bin": {
+    "site-app": "build-site-app.js"
+  },
+  "scripts": {
+    "build": "node build-site-app.js",
+    "build:no-prompt": "node build-site-app.js --yes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.35.5"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron-builder": "^26.0.12"
+  }
+}
