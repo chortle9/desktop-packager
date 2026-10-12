@@ -110,12 +110,6 @@ node build-site-app.js --url "https://news.example.com" --name "新闻早报" --
 - **桌面图标不更新？** Windows 有图标缓存，重装后若图标未刷新，重启资源管理器（任务管理器 → 重启"Windows 资源管理器"）即可。
 - **网页需要最新浏览器特性？** 内置的是最新稳定版 Chromium（Electron 44），支持现代 Web 标准。
 
-## 演示产物（dist/）
-
-本目录已附带两个演示包，可在 Windows 上直接安装体验：
-
-- `豆包网页版` → https://www.doubao.com （默认图标）
-- `示例站点` → https://example.com （自定义橙色图标）
 
 ## 目录结构
 
